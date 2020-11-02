@@ -58,7 +58,8 @@ const chainColors: Record<string, any> = [
   ["Track", chainRoccoTrack],
   ["Trick", chainRoccoTrick],
   ["Westend", chainWestend],
-  ["Development", chainDevelopment]
+  ["Development", chainDevelopment],
+  ["TANZ Demo", chainDevelopment]
 ].reduce(
   (colors, [chain, color]): Record<string, any> => ({
     ...colors,
